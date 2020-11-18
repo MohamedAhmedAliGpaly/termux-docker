@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-if [ "$(basename "$0")" = "run-x86_64.sh" ]; then
-	CONTAINER_NAME="termux-x86_64"
-	DOCKER_IMAGE_NAME="xeffyr/termux:x86_64"
+if [ "$(basename "$0")" = "run-aarch64.sh" ]; then
+	CONTAINER_NAME="termux-aarch64"
+	DOCKER_IMAGE_NAME="xeffyr/termux:aarch64"
 else
 	CONTAINER_NAME="termux-i686"
 	DOCKER_IMAGE_NAME="xeffyr/termux:latest"
